@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path, include
 from django.views.generic import RedirectView
 
-
+# All routes are configured here
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('polls/', include('polls.urls')),
